@@ -16,19 +16,45 @@
 
 <?php
     if($_SERVER["REQUEST_METHOD"] == "POST") {
-$db = mysqli_connect("127.0.0.1", "root", "",  "exgen_db");
+        $db = mysqli_connect("127.0.0.1", "root", "",  "exgen_db");
 
-if (!$db) {
-    echo "Error: Unable to connect to MySQL." . PHP_EOL;
-    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
-    exit;
-}
+        if (!$db) {
+            echo "Error: Unable to connect to MySQL." . PHP_EOL;
+            echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+            echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+            mysqli_close($db);
+            exit;
+        }
 
         $username = mysqli_real_escape_string($db, $_POST['username']);
         $password = mysqli_real_escape_string($db, $_POST['password']);
+        $bool = true;
 
-        echo "Username entered is: ". $username . "<br/>";
-        echo "Password entered is: ". $password;
-    }
+        $result = mysqli_query($db, "SELECT * from users");
+        while($row = mysqli_fetch_array($result)) { //checks each row in the user table for an existing username of same value
+            $user_table = $row['username'];
+            if($username == $user_table) {
+                $bool = false;
+                mysqli_close($db);
+                Print '<script>alert("Username has been taken!");</script>';
+                Print '<script>window.location.assign("register.php");</script>';
+   
+            }
+        }
+
+        if($bool) {//if existing username of same value of input doesn't exist
+            $result = mysqli_query($db, "INSERT INTO users (username, password) VALUES ('$username', '$password')");
+
+            if($result) {
+                Print '<script>alert("Registration Successful!");</script>';
+                echo "Your username is $username";
+                mysqli_close($db);
+            } else {
+                Print mysqli_error($db);
+                }
+       
+        }
+}
+
+
 ?>
