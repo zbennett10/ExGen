@@ -33,12 +33,12 @@
         }
         else {
             Print '<script>alert("Incorrect Password!");</script>';
-            //Print '<script>window.location.assign("login.php");</script>';
+            Print '<script>window.location.assign("login.php");</script>';
         }
     }
     else {
         Print '<script>alert("Incorrect Username!");</script>';
-            //Print '<script>window.location.assign("login.php");</script>';
+        Print '<script>window.location.assign("login.php");</script>';
     }
 
 ?>

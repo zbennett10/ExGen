@@ -17,7 +17,7 @@
             if($_SESSION['user']) {
 
             } else {
-                header("location: exgenview.php");
+                header("location: index.php");
             }
 
             $user = $_SESSION['user'];

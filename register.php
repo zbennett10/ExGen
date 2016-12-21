@@ -4,7 +4,7 @@
     </head>
     <body>
         <h2>Register</h2>
-        <a href="ExGenView.php">Home</a><br/>
+        <a href="index.php">Home</a><br/>
         <form action="register.php" method="POST">
            Enter Username: <input type="text" name="username" required="required" /> <br/>
            Enter Password: <input type="password" name="password" required="required" /> <br/>
