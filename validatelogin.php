@@ -28,7 +28,7 @@
         if($username == $table_users && $password == $table_password) {
             if($password == $table_password) {
                 $_SESSION['user'] = $username;
-                header("location: home.php");
+                header("location: profile.php");
             }
         }
         else {
