@@ -37,7 +37,14 @@
 
             a{
                 text-decoration: none;
-                
+                color: white;
+                border: 2px solid black;
+                padding: .25em;
+            }
+
+            a:hover {
+                color: black;
+                border: 2px solid white;
             }
 
         </style>
@@ -45,16 +52,17 @@
 
     <body>
 
-        <h1>Register</h1>
-        <a href="index.php">Home</a>
+        <h1>Register</h1>      
      
 
         <div class="container">
            
             <form action="register.php" method="POST">
                 Enter Username: <input type="text" name="username" required="required" /> <br/>
+                </br>
                 Enter Password: <input type="password" name="password" required="required" /> <br/>
-                <input type="submit" value="Register"/>
+                </br>
+                <input style="margin-right: 1em;" type="submit" value="Register"/> <a href="index.php">Home</a>
             </form>
         </div>
 
