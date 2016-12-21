@@ -23,6 +23,7 @@
                 text-align: center;
                 align-items: center;
                 justify-content: center;
+                border-radius: 5%;
 
             }
 
@@ -31,7 +32,14 @@
                 color: white;
                 font-size: 36px;
                 font-family: 'montserrat';
-                vertical-align: middle;   
+                vertical-align: middle;
+                border: 4px solid black;
+                padding: 2em;
+            }
+
+            a:hover {
+                color: black;
+                border: 4px solid white;
             }
 
         </style>
@@ -39,8 +47,10 @@
 
     <body>
         <div class="container">
-            <a style="margin-right: 1em;" href="login.php">Login</a> </br>
-            <a href="register.php">Register</a>
+            <div>
+                <a style="margin-right: 1em;" href="login.php">Login</a>
+                <a href="register.php">Register</a>
+            </div>
         </div>
     </body>
 </html
