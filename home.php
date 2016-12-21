@@ -8,6 +8,7 @@
                 width: 100%;
                 height: 25em;
                 text-align: center;
+            
             }
         </style>
     </head>

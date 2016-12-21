@@ -10,6 +10,7 @@
             }
 
             .container {
+                display: flex;
                 background-color: goldenrod;
                 width: 50em;
                 height: 20em;
@@ -20,6 +21,8 @@
                 right: 0;
                 margin: auto;
                 text-align: center;
+                align-items: center;
+                justify-content: center;
 
             }
 
@@ -28,6 +31,7 @@
                 color: white;
                 font-size: 36px;
                 font-family: 'montserrat';
+                vertical-align: middle;   
             }
 
         </style>
@@ -35,7 +39,7 @@
 
     <body>
         <div class="container">
-            <a href="login.php">Login</a> </br>
+            <a style="margin-right: 1em;" href="login.php">Login</a> </br>
             <a href="register.php">Register</a>
         </div>
     </body>
