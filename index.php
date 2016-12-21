@@ -3,6 +3,7 @@
     <head>
         <title>Login/Register</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         
         <style>
             body {
@@ -42,10 +43,26 @@
                 border: 4px solid white;
             }
 
+            h1 {
+                text-align: center;
+                font-weight: bold;
+                font-family: 'roboto';
+                font-size: 48px;
+            }
+
+            h3 {
+                text-align: center;
+                text-decoration: underline;
+                font-size: 24px;
+            }
+
         </style>
     </head>
 
     <body>
+        <h1>ExGen</h1>
+        <h3>Free Workout Generator</h3>
+
         <div class="container">
             <div>
                 <a style="margin-right: 1em;" href="login.php">Login</a>
