@@ -1,15 +1,63 @@
 <html>
+
     <head>
         <title>Register</title>
+
+        <style>
+            body {
+                background-color: cadetblue;
+            }
+
+            .container {
+                display: flex;
+                background-color: goldenrod;
+                width: 50em;
+                height: 20em;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                border-radius: 5%;
+
+            }
+
+            form {
+                vertical-align: middle;
+            }
+
+            h1 {
+                font-size: 48px;
+                text-align: center;
+            }
+
+            a{
+                text-decoration: none;
+                
+            }
+
+        </style>
     </head>
+
     <body>
-        <h2>Register</h2>
-        <a href="index.php">Home</a><br/>
-        <form action="register.php" method="POST">
-           Enter Username: <input type="text" name="username" required="required" /> <br/>
-           Enter Password: <input type="password" name="password" required="required" /> <br/>
-           <input type="submit" value="Register"/>
-        </form>
+
+        <h1>Register</h1>
+        <a href="index.php">Home</a>
+     
+
+        <div class="container">
+           
+            <form action="register.php" method="POST">
+                Enter Username: <input type="text" name="username" required="required" /> <br/>
+                Enter Password: <input type="password" name="password" required="required" /> <br/>
+                <input type="submit" value="Register"/>
+            </form>
+        </div>
+
     </body>
 </html>
 
