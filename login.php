@@ -1,8 +1,11 @@
 <html>
     <head>
         <title>Login</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     </head>
+
     <body>
+
         <h2>Login</h2>
         <a href="index.php">Home</a><br/>
         <form action="validatelogin.php" method="POST">
@@ -10,5 +13,6 @@
            Enter password: <input type="password" name="password" required="required" /> <br/>
            <input type="submit" value="Login"/>
         </form>
+        
     </body>
 </html>
