@@ -103,7 +103,7 @@
 
             if($result) {
                 Print '<script>alert("Registration Successful!");</script>';
-                echo "Your username is $username";
+                Print '<script>window.location.assign("login.php");</script>';              
                 mysqli_close($db);
             } else {
                 Print mysqli_error($db);
