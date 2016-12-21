@@ -38,18 +38,35 @@
             a{
                 text-decoration: none;
                 color: white;
-                border: 2px solid black;
                 padding: .25em;
             }
 
             a:hover {
                 color: black;
-                border: 2px solid white;
+            }
+
+            .nav {
+                width: 100%;
+                height: 3em;
+                background-color: silver;
+                border: 2px solid black;
+            }
+
+            li {
+                display: inline;
+                margin-right: 1em;
             }
         </style>
     </head>
 
     <body>
+        <div class="nav">
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="profile.php">Profile</a></li>
+            </ul>
+        </div>
 
         <h1>Login</h1>
        
@@ -60,7 +77,7 @@
                 </br>
                 Enter password: <input type="password" name="password" required="required" /> <br/>
                 </br>
-                <input style="margin-right: 1em;" type="submit" value="Login"/>  <a href="index.php">Home</a><br/>
+                <input style="margin-right: 1em;" type="submit" value="Login"/>
             </form>
         </div>
         

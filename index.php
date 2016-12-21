@@ -10,6 +10,7 @@
                 background-color: cadetblue;
             }
 
+
             .container {
                 display: flex;
                 background-color: goldenrod;
@@ -35,7 +36,7 @@
                 font-family: 'montserrat';
                 vertical-align: middle;
                 border: 4px solid black;
-                padding: 2em;
+                padding: .5em;
             }
 
             a:hover {
@@ -60,6 +61,8 @@
     </head>
 
     <body>
+        
+
         <h1>ExGen</h1>
         <h3>Free Workout Generator</h3>
 
