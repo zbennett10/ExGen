@@ -84,6 +84,9 @@
 
         $username = mysqli_real_escape_string($db, $_POST['username']);
         $password = mysqli_real_escape_string($db, $_POST['password']);
+        
+        $hashedPass = password_hash($password, PASSWORD_DEFAULT);
+        
         $bool = true;
 
         $result = mysqli_query($db, "SELECT * from users");
@@ -99,7 +102,7 @@
         }
 
         if($bool) {//if existing username of same value of input doesn't exist
-            $result = mysqli_query($db, "INSERT INTO users (username, password) VALUES ('$username', '$password')");
+            $result = mysqli_query($db, "INSERT INTO users (username, password) VALUES ('$username', '$hashedPass')");
 
             if($result) {
                 Print '<script>alert("Registration Successful!");</script>';

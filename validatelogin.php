@@ -15,7 +15,6 @@
 
     $query = mysqli_query($db, "SELECT * from users WHERE username = '$username'");
 
-    //$usernameExists = mysqli_num_rows(mysqli_query($db, "SELECT * WHERE username='$username'"));
     $usernameExists = mysqli_num_rows($query);
     $table_users = "";
     $table_password = "";
@@ -25,11 +24,11 @@
             $table_users = $row['username'];
             $table_password = $row['password'];
         }
-        if($username == $table_users && $password == $table_password) {
-            if($password == $table_password) {
+        if($username == $table_users && (password_verify($password, $table_password) == true)) {
                 $_SESSION['user'] = $username;
                 header("location: profile.php");
-            }
+            
+            
         }
         else {
             Print '<script>alert("Incorrect Password!");</script>';
