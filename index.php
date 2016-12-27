@@ -7,30 +7,32 @@
         
         <style>
             body {
-                background-color: cadetblue;
+                background-color: white;
             }
 
 
             .container {
                 display: flex;
-                background-color: goldenrod;
+                background-color: #1a98e6;
                 width: 20em;
                 height: 7em;
                 position: absolute;
                 top: 25px;
-                right:20px;
+                right:55px;
                 text-align: center;
                 align-items: center;
                 justify-content: center;
+                border: 5px solid black;
                 border-radius: 5%;
 
             }
 
            .register-span {
                float: right;
-               margin-right: 1.5em;
-               margin-top: -2em;
-                
+               margin-right: 1.90em;
+               margin-top: 9em;
+               font-family: 'montserrat';
+            
             }
 
             a {
@@ -48,15 +50,13 @@
                 border: 4px solid white;
             }
 
-            h1 {
-                top: 25px;
-                margin-left: 1.5em;
-                font-weight: bold;
-                font-family: 'roboto';
-                font-size: 70px;
+            .logo {
+                margin-top: 25px;
+                margin-left: 55px;
             }
 
             #generate-button {
+                color: white;
                 display: block;
                 position: absolute;
                 margin:auto;
@@ -67,14 +67,18 @@
                 left:0;
                 width: 20em;
                 height: 5em;
-                background: royalblue;
-                border: 2px solid black;
+                background: #1a98e6;
+                border: 5px solid black;
+                border-radius: 5%;
                 font-size: 24px;
                 font-weight: bold;
             }
 
+            
+
             button:hover {
-                transform: scale(1.1);
+               opacity: .75;
+               
             }
 
         </style>
@@ -82,9 +86,8 @@
 
     <body>
         
-
-        <h1>ExGen<span style="font-weight: bold; font-family: arial; font-size: 24px; margin-left: 1em;">Free Workout Generator</span></h1>
-        
+          <image class="logo" src="assets/logo.png"/>
+    
 
             <div class="container">
                 <div>
