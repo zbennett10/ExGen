@@ -14,8 +14,8 @@
             .container {
                 display: flex;
                 background-color: goldenrod;
-                width: 25em;
-                height: 10em;
+                width: 20em;
+                height: 7em;
                 position: absolute;
                 top: 25px;
                 right:20px;
@@ -26,19 +26,17 @@
 
             }
 
-           span {
-               position: relative;
+           .register-span {
                float: right;
-               z-index: 1;
-               top:-10px;
-               margin-right: 4em;
+               margin-right: 1.5em;
+               margin-top: -2em;
                 
             }
 
             a {
                 text-decoration: none;
                 color: white;
-                font-size: 36px;
+                font-size: 24px;
                 font-family: 'montserrat';
                 vertical-align: middle;
                 border: 4px solid black;
@@ -51,16 +49,32 @@
             }
 
             h1 {
-                text-align: center;
+                top: 25px;
+                margin-left: 1.5em;
                 font-weight: bold;
                 font-family: 'roboto';
-                font-size: 48px;
+                font-size: 70px;
             }
 
-            h3 {
-                text-align: center;
-                text-decoration: underline;
+            #generate-button {
+                display: block;
+                position: absolute;
+                margin:auto;
+                vertical-align: middle;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                width: 20em;
+                height: 5em;
+                background: royalblue;
+                border: 2px solid black;
                 font-size: 24px;
+                font-weight: bold;
+            }
+
+            button:hover {
+                transform: scale(1.1);
             }
 
         </style>
@@ -69,8 +83,8 @@
     <body>
         
 
-        <h1>ExGen</h1>
-        <h3>Free Workout Generator</h3>
+        <h1>ExGen<span style="font-weight: bold; font-family: arial; font-size: 24px; margin-left: 1em;">Free Workout Generator</span></h1>
+        
 
             <div class="container">
                 <div>
@@ -79,9 +93,9 @@
                 </div>
             </div>
 
-            <span>Login or Register to customize your workout</span>
+            <span class="register-span">Login or Register to customize your workout</span>
 
-        
+        <button id="generate-button" class="button">Generate Workout</button>
 
     </body>
 </html
