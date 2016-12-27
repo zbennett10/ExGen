@@ -69,7 +69,7 @@
                 </br>
                 Enter Password: <input type="password" name="password" required="required" /> <br/>
                 </br>
-                <input style="margin-right: 1em; background: white;" type="submit" value="Login"/> 
+                <input style="margin-right: 1em; background-color: white;" type="submit" value="Login"/> 
                 
                 <a href="register.php">Need to register?</a>
             </form>
