@@ -2,19 +2,15 @@
     <head>
         <title>Home</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
         <style>
-            header {
-                background-color: cadetblue;
-                width: 100%;
-                height: 5em;
-                text-align: center;
-            
-            }
             
             a{
                 text-decoration: none;
-                color: black;
-                padding: .25em;
+                color: white;
+                font-size: 20px;
             }
 
             a:hover {
@@ -22,22 +18,35 @@
             }
 
             .nav {
-                width: 100%;
-                height: 3em;
-                background-color: silver;
+                width: 312px;
+                height: 102px;
+                background-color: #1a98e6;
                 border: 2px solid black;
+                color: white;
+                font-family: 'montserrat';
+                float: right;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-top: 20px;
+                margin-right: 20px;
+
             }
 
             li {
                 display: inline;
-                margin-right: 1em;
+                margin-right: .7em;
             }
 
-            .logout {
-                margin-left: auto;
+            img {
+                margin-left: 20px;
+                margin-top: 20px;
             }
             
-
+            footer {
+                clear: both;
+                margin-top: 25px;
+            }
         </style>
     </head>
 
@@ -55,18 +64,27 @@
 
     <body>
 
+        <img src="assets/logo.png"/>
+
         <div class="nav">
+
+          
+
             <ul>
                 <li><a href="home.php">Home</a></li>
-                <li><a href="login.php">Login</a></li>
                 <li><a href="profile.php">Profile</a></li>
                 <li class="logout"><a href="logout.php"> Logout </a></li>
             </ul>
         </div>
 
-        <header>ExGen - Free Workout Generator</header>
+        
+        <footer></footer>
             
-            
+        
+        <script>
+            const footerElement = document.querySelector('footer');
+            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
         
     </body>
 </html>
