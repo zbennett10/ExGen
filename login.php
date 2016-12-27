@@ -5,13 +5,14 @@
 
         <style>
             body {
-                background-color: cadetblue;
+                background-color: white;
             }
 
             .container {
+                color: white;
                 display: flex;
-                background-color: goldenrod;
-                width: 50em;
+                background-color: #1a98e6;
+                width: 35em;
                 height: 20em;
                 position: absolute;
                 top: 0;
@@ -23,6 +24,8 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 5%;
+                border: 5px solid black;
+                font-family: 'montserrat';
 
             }
 
@@ -31,8 +34,10 @@
             }
 
             h1 {
+                font-family: 'montserrat';
                 font-size: 48px;
                 text-align: center;
+                margin-top: 2.5em;
             }
 
             a{
@@ -43,6 +48,10 @@
 
             a:hover {
                 color: black;
+            }
+
+            input {
+                font-family: 'montserrat';
             }
 
         </style>
@@ -58,9 +67,9 @@
             <form action="validatelogin.php" method="POST">
                 Enter Username: <input type="text" name="username" required="required" /> <br/>
                 </br>
-                Enter password: <input type="password" name="password" required="required" /> <br/>
+                Enter Password: <input type="password" name="password" required="required" /> <br/>
                 </br>
-                <input style="margin-right: 1em;" type="submit" value="Login"/> 
+                <input style="margin-right: 1em; background: white;" type="submit" value="Login"/> 
                 
                 <a href="register.php">Need to register?</a>
             </form>
