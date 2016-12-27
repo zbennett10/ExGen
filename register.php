@@ -3,15 +3,17 @@
     <head>
         <title>Register</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
         <style>
             body {
-                background-color: cadetblue;
+                background-color: white;
             }
 
             .container {
                 display: flex;
-                background-color: goldenrod;
-                width: 50em;
+                background-color: #1a98e6;
+                width: 35em;
                 height: 20em;
                 position: absolute;
                 top: 0;
@@ -23,6 +25,9 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 5%;
+                border: 5px solid black;
+                color: white;
+                font-family: 'montserrat';
 
             }
 
@@ -33,6 +38,8 @@
             h1 {
                 font-size: 48px;
                 text-align: center;
+                margin-top: 2.5em;
+                font-family: 'montserrat', 'verdana';
             }
 
             a{
@@ -40,10 +47,10 @@
                 color: white;
                 border: 2px solid black;
                 padding: .25em;
+                font-size: 12px;
             }
 
             a:hover {
-                color: black;
                 border: 2px solid white;
             }
 
@@ -62,7 +69,7 @@
                 </br>
                 Enter Password: <input type="password" name="password" required="required" /> <br/>
                 </br>
-                <input style="margin-right: 1em;" type="submit" value="Register"/> <a href="index.php">Home</a>
+                <input style="margin-right: 1em; font-family: 'montserrat'; background: white;" type="submit" value="Register"/> <a href="index.php">Home</a>
             </form>
         </div>
 
