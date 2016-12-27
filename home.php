@@ -33,6 +33,11 @@
                 margin-right: 1em;
             }
 
+            .logout {
+                margin-left: auto;
+            }
+            
+
         </style>
     </head>
 
@@ -55,11 +60,12 @@
                 <li><a href="home.php">Home</a></li>
                 <li><a href="login.php">Login</a></li>
                 <li><a href="profile.php">Profile</a></li>
+                <li class="logout"><a href="logout.php"> Logout </a></li>
             </ul>
         </div>
 
         <header>ExGen - Free Workout Generator</header>
-            <a href="logout.php"> Logout </a>
+            
             
         
     </body>
