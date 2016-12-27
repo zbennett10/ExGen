@@ -14,19 +14,25 @@
             .container {
                 display: flex;
                 background-color: goldenrod;
-                width: 50em;
-                height: 20em;
+                width: 25em;
+                height: 10em;
                 position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                margin: auto;
+                top: 25px;
+                right:20px;
                 text-align: center;
                 align-items: center;
                 justify-content: center;
                 border-radius: 5%;
 
+            }
+
+           span {
+               position: relative;
+               float: right;
+               z-index: 1;
+               top:-10px;
+               margin-right: 4em;
+                
             }
 
             a {
@@ -66,11 +72,16 @@
         <h1>ExGen</h1>
         <h3>Free Workout Generator</h3>
 
-        <div class="container">
-            <div>
-                <a style="margin-right: 1em;" href="login.php">Login</a>
-                <a href="register.php">Register</a>
+            <div class="container">
+                <div>
+                    <a style="margin-right: 1em;" href="login.php">Login</a>
+                    <a href="register.php">Register</a>
+                </div>
             </div>
-        </div>
+
+            <span>Login or Register to customize your workout</span>
+
+        
+
     </body>
 </html
