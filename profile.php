@@ -26,6 +26,19 @@
                 margin-right: 1em;
             }
 
+            footer {
+                clear: both;
+                position: absolute;
+                height: 1.25em;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 1rem;
+                text-align: center;
+                background-color: #efefef;
+                font-size: 18px;
+            }
+
         </style>
     </head>
  
@@ -58,6 +71,13 @@
             <input style="margin-right: 1em;" type="submit" value="Delete Profile"/>
                 </br>
         </form>
+
+        <footer></footer>
+
+        <script>
+            const footerElement = document.querySelector('footer');
+            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
 
     </body>
 

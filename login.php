@@ -54,6 +54,19 @@
                 font-family: 'montserrat';
             }
 
+            footer {
+                clear: both;
+                position: absolute;
+                height: 1.25em;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 1rem;
+                text-align: center;
+                background-color: #efefef;
+                font-size: 18px;
+            }
+
         </style>
     </head>
 
@@ -75,6 +88,12 @@
             </form>
         </div>
 
-        
+        <footer></footer>
+
+        <script>
+            const footerElement = document.querySelector('footer');
+            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
+
     </body>
 </html>

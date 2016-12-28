@@ -74,11 +74,22 @@
                 font-weight: bold;
             }
 
-            
-
             button:hover {
                opacity: .75;
                
+            }
+
+            footer {
+                clear: both;
+                position: absolute;
+                height: 1.25em;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 1rem;
+                text-align: center;
+                background-color: #efefef;
+                font-size: 18px;
             }
 
         </style>
@@ -99,6 +110,13 @@
             <span class="register-span">Login or Register to customize your workout</span>
 
         <button id="generate-button" class="button">Generate Workout</button>
+
+        <footer></footer>
+
+        <script>
+             const footerElement = document.querySelector('footer');
+            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
 
     </body>
 </html
