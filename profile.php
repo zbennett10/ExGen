@@ -2,28 +2,45 @@
     <head>
         <title>Profile</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
         <style>
 
             a{
                 text-decoration: none;
                 color: white;
-                padding: .25em;
+                font-size: 20px;
             }
 
             a:hover {
                 color: black;
             }
 
-            .nav {
-                width: 100%;
-                height: 3em;
-                background-color: silver;
+           .nav {
+                width: 20em;
+                height: 7em;
+                background-color: #1a98e6;
                 border: 2px solid black;
+                color: white;
+                font-family: 'montserrat';
+                float: right;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-top: 20px;
+                margin-right: 20px;
+
             }
 
             li {
                 display: inline;
-                margin-right: 1em;
+                margin-right: .7em;
+            }
+
+            img {
+                margin-left: 20px;
+                margin-top: 20px;
             }
 
             footer {
@@ -57,10 +74,13 @@
 
     <body>
 
+        <img src="assets/logo.png"/>
+
         <div class="nav">
             <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="profile.php">Profile</a></li>
+                <li class="logout"><a href="logout.php"> Logout </a></li>
             </ul>
         </div>
 
