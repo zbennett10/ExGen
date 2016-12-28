@@ -46,14 +46,14 @@
              #generate-button {
                 color: white;
                 display: block;
-                position: relative;
+                position: absolute;
                 margin:auto;
                 vertical-align: middle;
                 top:0;
                 bottom:0;
                 right:0;
                 left:0;
-                margin-top: 100px;
+                
                 width: 20em;
                 height: 5em;
                 background: #1a98e6;
