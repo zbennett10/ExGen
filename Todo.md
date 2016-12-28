@@ -8,5 +8,18 @@
   depending upon answer
 - consolidate styling into a shared stylesheet
 - echo username inside of header when logged in
-- find data source for exercise options
-- 
+- find data source for exercise options (scrape using artoo probably)
+- implement random workout generator
+
+
+
+---
+This is for profile page 
+- provide option for users to add personal exercise to personal pool of generatable exercises (not global)
+-  1st level options for user:
+      (Bodybuilding, Bodyweight,Crossfit, Sport specific)
+   - 2nd level options for user (for bodybuilding/bodyweight/crossfit):
+      (beginner, intermediate, advanced)
+
+   - 2nd level optinos for user (for sport specific):
+       Track, CC, Football, slowly add from there 
