@@ -28,8 +28,8 @@
                 display: flex;
                 align-items: center;
                 text-align: center;
-                margin-top: 20px;
                 margin-right: 20px;
+                margin-top: 20px;
 
             }
 
@@ -39,6 +39,7 @@
             }
 
             img {
+                float: left;
                 margin-left: 20px;
                 margin-top: 20px;
             }
@@ -58,11 +59,16 @@
 
             header {
                 text-align: center;
-                display: inline;
-                font-size: 54px;
-                font-family: 'roboto';
-                margin-left: 2em;
-                margin-right: 2em;
+                font-size: 60px;
+                font-family: 'montserrat';
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+            }
+
+            h3 {
+                font-weight: bold;
+                margin-top: 0;
             }
 
         </style>
@@ -85,15 +91,7 @@
 
         <img src="assets/logo.png"/>
 
-        <script>
-            var user = "<?php echo $user; ?>";
-            var header = document.createElement('header');
-            header.innerText = `Welcome ${user}`;
-            header.style.display = 'inline';
-            var body = document.querySelector('body');
-            body.appendChild(header);
-            
-        </script>
+        
 
         <div class="nav">
             <ul>
@@ -103,7 +101,18 @@
             </ul>
         </div>
 
-        <p>Profile Page</p>
+        <script>
+            const user = "<?php echo $user; ?>";
+            const header = document.createElement('header');
+            const userElement = document.createElement('h3');
+            const body = document.querySelector('body');
+
+            userElement.innerText = user;
+            header.innerText = `Welcome`;
+            header.appendChild(userElement);
+            body.appendChild(header);
+            
+        </script>
 
         <form action="" method="POST">
             Enter Username: <input type="username" name="username" required="required" /> <br/>
