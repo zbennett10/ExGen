@@ -56,6 +56,15 @@
                 font-size: 18px;
             }
 
+            header {
+                text-align: center;
+                display: inline;
+                font-size: 54px;
+                font-family: 'roboto';
+                margin-left: 2em;
+                margin-right: 2em;
+            }
+
         </style>
     </head>
  
@@ -75,6 +84,16 @@
     <body>
 
         <img src="assets/logo.png"/>
+
+        <script>
+            var user = "<?php echo $user; ?>";
+            var header = document.createElement('header');
+            header.innerText = `Welcome ${user}`;
+            header.style.display = 'inline';
+            var body = document.querySelector('body');
+            body.appendChild(header);
+            
+        </script>
 
         <div class="nav">
             <ul>
