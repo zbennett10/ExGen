@@ -7,7 +7,7 @@
   implement local storage/session storage (either javascript or php version)
   depending upon answer
 - consolidate styling into a shared stylesheet
-- echo username inside of header when logged in
+- ~~echo username inside of header when logged in~~
 - find data source for exercise options (scrape using artoo probably)
 - implement random workout generator
 
