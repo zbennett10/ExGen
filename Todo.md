@@ -9,6 +9,7 @@
 - consolidate styling into a shared stylesheet
 - ~~echo username inside of header when logged in~~
 - find data source for exercise options (scrape using artoo probably)
+ - ~~find small data source to play with~~
 - implement random workout generator
 
 
