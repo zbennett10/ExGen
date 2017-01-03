@@ -7,6 +7,12 @@
         <script src="Assets/workoutData.js"></script>
 
         <style>
+            body {
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+
             h1 {
                 text-align: center;
                 font-family: 'montserrat';
@@ -52,6 +58,9 @@
 
            condition.innerText = workoutText.shift() + ':';
            workoutPara.innerText = workoutText.join('\n');
+
+           //set random background image  
+           document.body.style.backgroundImage = `url(assets/workoutimages/${String(Math.floor(Math.random() * (9-1) + 1))}.jpg)`;
         
         </script>
 
