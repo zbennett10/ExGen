@@ -10,6 +10,7 @@
             body {
                 background-size: cover;
                 background-repeat: no-repeat;
+                background-position: stretch;
             }
 
 
@@ -63,7 +64,7 @@
            workoutPara.innerText = workoutText.join('\n');
 
            //set random background image  
-           document.body.style.backgroundImage = `url(assets/workoutimages/${String(Math.floor(Math.random() * (9-1) + 1))}.jpg)`;
+           document.body.style.backgroundImage = `url(assets/workoutimages/${String(Math.floor(Math.random() * (10-1) + 1))}.jpg)`;
         
         </script>
 
