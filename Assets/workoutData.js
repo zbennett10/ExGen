@@ -18,9 +18,6 @@ var workouts = [
     "workout": "\n                                        As Many Rounds as Possible (AMRAP) in 20 minutes\n                                        5 Pull-Ups\n10 Push-Ups\n15 Air Squats\n                                    "
   },
   {
-    "workout": "\n                                        \n                                        New Benchmark WODs\nEmailed to You\nOnce a MonthSubscribe\n                                    "
-  },
-  {
     "workout": "\n                                        3 Rounds, For Total Reps in 17 minutes\n                                        1 minute Wall Balls (20/14 lbs)\n1 minute Sumo Deadlift High-Pulls (75/55 lbs)\n1 minute Box Jumps (20 in)\n1 minute Push Press (75/55 lbs)\n1 minute Row\n1 minute Rest\n                                    "
   },
   {
@@ -40,9 +37,6 @@ var workouts = [
   },
   {
     "workout": "\n                                        3 Rounds For Time\n                                        30 Wall Ball Shots (20/14 lbs)\n30 Sumo Deadlift High-Pull (75/55 lbs)\n30 Box Jump (20 in)\n30 Push Presses (75/55 lbs)\n30 calorie Row\n30 Push-Ups\n10 Back Squat (Bodyweight)\n                                    "
-  },
-  {
-    "workout": "\n                                        \n                                        400+ Benchmarks\nIn One Document\nTo Save or PrintDownload\n                                    "
   },
   {
     "workout": "\n                                        For Time\n                                        30 Box Jumps (24/20 in)\n30 Jumping Pull-Ups\n30 Kettlebell Swings (35/26 lbs)\n30 Lunges\n30 Knees-to-Elbows\n30 Push Press (45/35 lbs)\n30 Back Extensions\n30 Wall Balls (20/14 lbs)\n30 Burpees\n30 Double-Unders\n                                    "
@@ -85,9 +79,6 @@ var workouts = [
   },
   {
     "workout": "\n                                        10-9-8-7-6-5-4-3-2-1 Reps For Time\n                                        Deadlift (1.5 BW)\nBench Press (BW)\nClean (3/4 BW)\n                                    "
-  },
-  {
-    "workout": "\n                                        \n                                        New Benchmark WODs\nEmailed to You\nOnce a MonthSubscribe\n                                    "
   },
   {
     "workout": "\n                                        For As Long As Possible\n                                        1 Rep in the first minute\n2 Rep in the second minute\n3 Rep in the third minute\netc.\n                                    "
@@ -1411,9 +1402,6 @@ var titles = [
     "title": "Cindy"
   },
   {
-    "title": "New WODs"
-  },
-  {
     "title": "Fight Gone Bad"
   },
   {
@@ -1433,9 +1421,6 @@ var titles = [
   },
   {
     "title": "Zeus"
-  },
-  {
-    "title": "WODs PDF"
   },
   {
     "title": "Dirty Thirty"
@@ -1478,9 +1463,6 @@ var titles = [
   },
   {
     "title": "Linda (aka: ‘3 Bars of Death’)"
-  },
-  {
-    "title": "New WODs"
   },
   {
     "title": "Death By…Anything"

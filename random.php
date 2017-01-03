@@ -19,17 +19,19 @@
                 font-family: 'montserrat';
                 font-size: 48px;
                 color: white;
+                opacity: .75;
             }
 
             #workout-container {
                 text-align: center;
-                opacity: .85;
-                color: azure;
+                opacity: .75;
+                color: black;
                 max-width: 500px;
                 margin-left: auto;
                 margin-right: auto;
                 font-size: 18px;
                 font-family: 'montserrat';
+                background-color: azure;
             }
         </style>
     </head>
