@@ -26,7 +26,7 @@
                 justify-content: center;
                 border: 5px solid black;
                 border-radius: 5%;
-
+                opacity: .75;
             }
 
            .register-span {

@@ -5,10 +5,13 @@
 
         <style>
             body {
-                background-color: white;
+                background-image: url("assets/loginBackground.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
             }
 
             .container {
+                opacity: .85;
                 color: white;
                 display: flex;
                 background-color: #1a98e6;
@@ -55,6 +58,7 @@
             }
 
             footer {
+                opacity: .5;
                 clear: both;
                 position: absolute;
                 height: 1.25em;

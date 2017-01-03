@@ -7,10 +7,13 @@
 
         <style>
             body {
-                background-color: white;
+                background-image: url("assets/registerBackground.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
             }
 
             .container {
+                opacity: .75;
                 display: flex;
                 background-color: #1a98e6;
                 width: 35em;
@@ -55,6 +58,7 @@
             }
 
              footer {
+                opacity: .5;
                 clear: both;
                 position: absolute;
                 height: 1.25em;
