@@ -9,8 +9,14 @@
         <h1>Random Workout</h1>
         
 
+
         <script>
-            console.log(titles);
+           var workoutData = [];
+           for(var i = 0; i < workouts.length; i++) {
+               workouts[i]['title'] = titles[i]['title'];
+               workoutData.push(workouts[i]);
+           }
+            console.log(workoutData);
         </script>
     </body>
 </html>
