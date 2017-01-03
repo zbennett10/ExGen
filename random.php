@@ -19,20 +19,42 @@
                 font-family: 'montserrat';
                 font-size: 48px;
                 color: white;
-                opacity: .75;
+                opacity: 1;
+                font-weight: bold;
             }
 
             #workout-container {
                 text-align: center;
-                opacity: .75;
                 color: black;
                 max-width: 500px;
                 margin-left: auto;
                 margin-right: auto;
                 font-size: 18px;
                 font-family: 'montserrat';
-                background-color: azure;
+                position: relative;
+                z-index: 1;
+                border-radius: 5%;
+                font-weight: bold;
             }
+
+            .background {
+                position: absolute;
+                background-color: azure;
+                z-index: -1;
+                opacity: .35;
+                width: 100%;
+                height: 100%;
+                border-radius: 5%;
+            }
+
+            #condition {
+                padding-top: 1em;
+            }
+
+            #workoutPara {
+                padding-bottom: 1em;
+            }
+
         </style>
     </head>
 
@@ -40,6 +62,7 @@
         <h1 id="title"></h1>
         
         <div id="workout-container">
+            <div class="background"></div>
             <h2 id="condition"></h2>
             <p id="workoutPara"></p>
         </div>
