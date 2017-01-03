@@ -25,10 +25,11 @@
     </head>
 
     <body>
-        <h1 id='title'></h1>
+        <h1 id="title"></h1>
         
         <div id="workout-container">
-
+            <h2 id="condition"></h2>
+            <p id="workoutPara"></p>
         </div>
 
         <script>
@@ -38,19 +39,19 @@
                workoutData.push(workouts[i]);
            }
 
-           workoutData.forEach(obj => {
-               console.log(obj.workout);
-           });
-
            const container = document.querySelector('#workout-container');
            const title = document.querySelector('#title');
+           const condition = document.querySelector('#condition');
+           const workoutPara = document.querySelector('#workoutPara');
 
            let index = Math.floor(Math.random() * workoutData.length);
            
            title.innerText = workoutData[index].title;
-           container.innerText = workoutData[index].workout;
+           workoutText = workoutData[index].workout.split('\n');
+           workoutText.shift();
 
-           console.log(container.innerText);
+           condition.innerText = workoutText.shift() + ':';
+           workoutPara.innerText = workoutText.join('\n');
         
         </script>
 
