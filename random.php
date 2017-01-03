@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- link randomscript.js -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
         <script src="Assets/workoutData.js"></script>
 
         <style>
             h1 {
                 text-align: center;
+                font-family: 'montserrat';
+                font-size: 48px;
             }
 
             #workout-container {
-                margin: auto;
-
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: cadetblue;
+                font-size: 18px;
+                font-family: 'montserrat';
             }
         </style>
     </head>
 
     <body>
-        
+        <h1 id='title'></h1>
         
         <div id="workout-container">
 
@@ -34,14 +42,15 @@
                console.log(obj.workout);
            });
 
-           const container = document.createElement('div');
-           const title = document.createElement('h1');
+           const container = document.querySelector('#workout-container');
+           const title = document.querySelector('#title');
+
+           let index = Math.floor(Math.random() * workoutData.length);
            
-           document.body.appendChild(title);
-           document.body.appendChild(container);
-           
-           title.innerText = workoutData[4].title;
-           container.innerText = workoutData[4].workout;
+           title.innerText = workoutData[index].title;
+           container.innerText = workoutData[index].workout;
+
+           console.log(container.innerText);
         
         </script>
 
