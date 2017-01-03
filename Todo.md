@@ -12,6 +12,7 @@
  - ~~find small data source to play with~~
 - implement random workout generator
 - ~~combine titles and workouts into one condensed json file~~
+- create a div that holds and styles random workout accorind to a certain style
 
 
 
