@@ -7,6 +7,12 @@
         <!-- link randomscript.js -->
 
         <style>
+
+            body {
+                background-image: url("assets/homebackground.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
             
             a{
                 text-decoration: none;
@@ -70,6 +76,7 @@
             }
             
             footer {
+                opacity: .5;
                 clear: both;
                 position: absolute;
                 height: 1.25em;
