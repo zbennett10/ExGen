@@ -11,7 +11,7 @@
 - find data source for exercise options (scrape using artoo probably)
  - ~~find small data source to play with~~
 - implement random workout generator
-- combine titles and workouts into one condensed json file
+- ~~combine titles and workouts into one condensed json file~~
 
 
 
