@@ -7,7 +7,9 @@
         
         <style>
             body {
-                background-color: white;
+                background-image: url("assets/indexBackground.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
             }
 
 
@@ -80,6 +82,7 @@
             }
 
             footer {
+                opacity: .5;
                 clear: both;
                 position: absolute;
                 height: 1.25em;
@@ -116,6 +119,13 @@
         <script>
              const footerElement = document.querySelector('footer');
             footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
+
+        <script>
+            const workoutButton = document.querySelector('#generate-button');
+            workoutButton.onclick = function() {
+                location.href = "random.php";
+            }
         </script>
 
     </body>
