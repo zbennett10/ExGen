@@ -7,12 +7,14 @@
   implement local storage/session storage (either javascript or php version)
   depending upon answer
 - consolidate styling into a shared stylesheet
+- add random background image to random.php
+- find data source for random bodybuilding workouts
 - ~~echo username inside of header when logged in~~
-- find data source for exercise options (scrape using artoo probably)
+- ~~find data source for exercise options (scrape using artoo probably)
  - ~~find small data source to play with~~
-- implement random workout generator
+- ~~implement random workout generator~~
 - ~~combine titles and workouts into one condensed json file~~
-- create a div that holds and styles random workout accorind to a certain style
+- ~~create a div that holds and styles random workout according to a certain style~~
 
 
 
