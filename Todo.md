@@ -7,7 +7,7 @@
   implement local storage/session storage (either javascript or php version)
   depending upon answer
 - consolidate styling into a shared stylesheet
-- add random background image to random.php
+- ~add random background image to random.php~
 - find data source for random bodybuilding workouts
 - ~~echo username inside of header when logged in~~
 - ~~find data source for exercise options (scrape using artoo probably)
