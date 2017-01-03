@@ -17,13 +17,16 @@
                 text-align: center;
                 font-family: 'montserrat';
                 font-size: 48px;
+                color: white;
             }
 
             #workout-container {
+                text-align: center;
+                opacity: .85;
+                color: azure;
                 max-width: 500px;
                 margin-left: auto;
                 margin-right: auto;
-                background-color: cadetblue;
                 font-size: 18px;
                 font-family: 'montserrat';
             }
