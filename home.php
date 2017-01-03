@@ -109,7 +109,7 @@
             </ul>
         </div>
 
-        <button id="generate-button" class="button">Generate Workout</button>
+        <button id="generate-button" class="button"><a>Generate Workout</a></button>
 
         
         <footer></footer>
@@ -119,6 +119,14 @@
             const footerElement = document.querySelector('footer');
             footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
         </script>
+
+        <script>
+            const workoutButton = document.querySelector('#generate-button');
+            workoutButton.onclick = function() {
+                location.href = "random.php";
+            }
+        </script>
+        
         
     </body>
 </html>
