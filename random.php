@@ -13,6 +13,26 @@
                 background-position: fill;
             }
 
+            #back {
+                float: left;
+                margin-left: 20px;
+                margin-top: 20px;
+            }
+
+            img {
+                position: absolute;
+                opacity: .75;
+                height: 50px;
+                width: 50px;
+            }
+
+            img:hover {
+                margin-top: -5px;
+                margin-left: -5px;
+                height: 60px;
+                width: 60px;
+            }
+
 
             h1 {
                 text-align: center;
@@ -59,6 +79,8 @@
     </head>
 
     <body>
+        <a href="home.php" id="back"><img src="assets/backarrow.png"/></a>
+
         <h1 id="title"></h1>
         
         <div id="workout-container">
@@ -78,6 +100,7 @@
            const title = document.querySelector('#title');
            const condition = document.querySelector('#condition');
            const workoutPara = document.querySelector('#workoutPara');
+         
 
            let index = Math.floor(Math.random() * workoutData.length);
            
@@ -90,6 +113,8 @@
 
            //set random background image  
            document.body.style.backgroundImage = `url(assets/workoutimages/${String(Math.floor(Math.random() * (10-1) + 1))}.jpg)`;
+
+           
         
         </script>
 
