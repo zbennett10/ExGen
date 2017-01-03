@@ -25,6 +25,7 @@
             }
 
             .nav {
+                opacity: .75;
                 width: 20em;
                 height: 7em;
                 background-color: #1a98e6;
