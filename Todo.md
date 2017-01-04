@@ -17,6 +17,10 @@
 - ~~create a div that holds and styles random workout according to a certain style~~
 - ~~configure app for deployment to heroku~~
 - ~~configure mysql database for heroku~~
+- add generate new workout button to random.php
+- add recently generated workouts to profile page
+- fix background pictures to load faster (switch from jpeg)
+- 
 
 
 
