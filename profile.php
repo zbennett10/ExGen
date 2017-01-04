@@ -75,24 +75,34 @@
                 margin-top: 0;
             }
 
-            #deleteContainer {
-                margin-right: 6em;
-                margin-top: -3em;
-                float: right;
-                background-color: white;
-            }
-
-            #deleteContainer button {
+            #deleteButton {
                 padding: .5em;
                 font-size: 20px;
                 font-family: "montserrat";
+                margin-right: 5em;
+                margin-top: -3em;
+                float: right;
+                background-color: #1a98e6;
+                color: white;
             }
 
-            #deleteContainer button:hover {
+            #deleteButton:hover {
                 padding: .6em;
             }
 
-            
+            #deleteForm {
+                float: right;
+                margin-top: 1em;
+                margin-right: 2.75em;
+            }
+
+            #deleteSubmit {
+                width: 100%;
+                font-family: 'montserrat';
+                font-size: 20px;
+                color: white;
+                background-color: #1a98e6;
+            }
 
         </style>
     </head>
@@ -137,27 +147,20 @@
             
         </script>
 
-        <div id="deleteContainer">
             <button id="deleteButton">Delete Profile</button>
 
             <form action="" method="POST" id="deleteForm" style="display: none;">
                 Enter Username: <input type="username" name="username" required="required" /> <br/>
-                <input style="margin-right: 1em;" type="submit" value="Delete Profile"/>
+                <input type="submit" value="Delete Profile" id="deleteSubmit"/>
                 </br>
             </form>
-        </div>
 
         <script>
             const deleteButton = document.querySelector('#deleteButton');
             const deleteForm = document.querySelector('#deleteForm');
 
             deleteButton.onclick = function() {
-                if(deleteForm.style.display === 'none') {
-                    deleteForm.style.display = 'block';
-                }
-                else {
-                    deleteForm.style.display = 'none';
-                }
+                return deleteForm.style.display === 'none' ? deleteForm.style.display = 'block' : deleteForm.style.display = 'none';
             }
         </script>
 
