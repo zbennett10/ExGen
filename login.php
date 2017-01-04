@@ -36,13 +36,6 @@
                 vertical-align: middle;
             }
 
-            h1 {
-                font-family: 'montserrat';
-                font-size: 48px;
-                text-align: center;
-                margin-top: 2.5em;
-            }
-
             a{
                 text-decoration: none;
                 color: white;
@@ -76,15 +69,13 @@
 
     <body>
 
-
-        <h1>Login</h1>
-       
-
         <div class="container">
+            <h2 style="position: absolute; margin-top: -4.5em;">Login</h2> </br>
+            </br>
             <form action="validatelogin.php" method="POST">
-                Enter Username: <input type="text" name="username" required="required" /> <br/>
+                Enter Username: <input type="text" name="username" required="required" /> </br>
                 </br>
-                Enter Password: <input type="password" name="password" required="required" /> <br/>
+                Enter Password: <input type="password" name="password" required="required" /> </br>
                 </br>
                 <input style="margin-right: 1em; background: white;" type="submit" value="Login"/> 
         
