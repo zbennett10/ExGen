@@ -38,23 +38,11 @@
             
         }
         else {
-            Print '<script>
-            const notice = document.querySelector("h3");
-            if(notice.style.display === "none") {
-                notice.style.display = "block";
-            }
-            
-            </script>';
+            Print '<script>document.querySelector("h3").style.display = "block"</script>';
         }
     }
     else {
-       Print '<script>
-            const notice = document.querySelector("h3");
-            if(notice.style.display === "none") {
-                notice.style.display = "block";
-            }
-            
-            </script>';
+       Print '<script>document.querySelector("h3").style.display = "block"</script>';
     }
 
 ?>
