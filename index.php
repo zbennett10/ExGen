@@ -74,11 +74,12 @@
                 border-radius: 5%;
                 font-size: 24px;
                 font-weight: bold;
+                opacity: .75;
             }
 
-            button:hover {
-               opacity: .75;
-               
+            #generate-button:hover {
+                width: 20.5em;
+                height: 5.5em;
             }
 
             footer {
