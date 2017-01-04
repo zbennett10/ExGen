@@ -78,7 +78,7 @@
     </head>
 
     <body>
-        <a href="home.php" id="back"><img src="assets/backarrow.png"/></a>
+        <a href="home.php" id="back"><img src="assets/backArrow.png"/></a>
 
         <h1 id="title"></h1>
         
@@ -111,7 +111,7 @@
            workoutPara.innerText = workoutText.join('\n');
 
            //set random background image  
-           document.body.style.backgroundImage = `url(assets/workoutimages/${String(Math.floor(Math.random() * (10-1) + 1))}.jpg)`;
+           document.body.style.backgroundImage = `url(assets/workoutImages/${String(Math.floor(Math.random() * (10-1) + 1))}.jpg)`;
 
            
         
