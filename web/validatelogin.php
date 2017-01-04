@@ -36,22 +36,16 @@
                 header("location: profile.php");
             
             
-        }
-        else {
-            echo '<script type="text/javascript">
-                    document.querySelector("h3").style.display = "block";
-                    </script>';
-            Print '<script>window.location.assign("login.php");</script>'
+        } else{
+            Print '<script>alert("Invalid Password");</script>';
+            Print '<script>window.location.assign("login.php");</script>';
         }
             
-    
-    
-    else {
-       echo '<script type="text/javascript">
-                    document.querySelector("h3").style.display = "block";
-                    </script>';
+    } else{
+        Print '<script>alert("Invalid Username");</script>';
+        Print '<script>window.location.assign("login.php");</script>';
     }
 
-    }
+    
 
 ?>
