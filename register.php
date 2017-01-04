@@ -76,11 +76,9 @@
 
     <body>
 
-        <h1>Register</h1>      
-     
-
         <div class="container">
-           
+            <h2 style="position: absolute; margin-top: -4.5em;">Register</h2>
+
             <form action="register.php" method="POST">
                 Enter Username: <input type="text" name="username" required="required" /> <br/>
                 </br>

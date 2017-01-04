@@ -70,8 +70,8 @@
     <body>
 
         <div class="container">
-            <h2 style="position: absolute; margin-top: -4.5em;">Login</h2> </br>
-            </br>
+            <h2 style="position: absolute; margin-top: -4.5em;">Login</h2>
+            
             <form action="validatelogin.php" method="POST">
                 Enter Username: <input type="text" name="username" required="required" /> </br>
                 </br>
