@@ -7,6 +7,10 @@
 
         <style>
 
+            body {
+                background-color: #a9a9a9;
+            } 
+
             a{
                 text-decoration: none;
                 color: white;
@@ -71,6 +75,25 @@
                 margin-top: 0;
             }
 
+            #deleteContainer {
+                margin-right: 6em;
+                margin-top: -3em;
+                float: right;
+                background-color: white;
+            }
+
+            #deleteContainer button {
+                padding: .5em;
+                font-size: 20px;
+                font-family: "montserrat";
+            }
+
+            #deleteContainer button:hover {
+                padding: .6em;
+            }
+
+            
+
         </style>
     </head>
  
@@ -114,11 +137,29 @@
             
         </script>
 
-        <form action="" method="POST">
-            Enter Username: <input type="username" name="username" required="required" /> <br/>
-            <input style="margin-right: 1em;" type="submit" value="Delete Profile"/>
+        <div id="deleteContainer">
+            <button id="deleteButton">Delete Profile</button>
+
+            <form action="" method="POST" id="deleteForm" style="display: none;">
+                Enter Username: <input type="username" name="username" required="required" /> <br/>
+                <input style="margin-right: 1em;" type="submit" value="Delete Profile"/>
                 </br>
-        </form>
+            </form>
+        </div>
+
+        <script>
+            const deleteButton = document.querySelector('#deleteButton');
+            const deleteForm = document.querySelector('#deleteForm');
+
+            deleteButton.onclick = function() {
+                if(deleteForm.style.display === 'none') {
+                    deleteForm.style.display = 'block';
+                }
+                else {
+                    deleteForm.style.display = 'none';
+                }
+            }
+        </script>
 
         <footer></footer>
 
