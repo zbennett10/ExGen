@@ -15,6 +15,8 @@
 - ~~implement random workout generator~~
 - ~~combine titles and workouts into one condensed json file~~
 - ~~create a div that holds and styles random workout according to a certain style~~
+- ~~configure app for deployment to heroku~~
+- ~~configure mysql database for heroku~~
 
 
 
