@@ -81,6 +81,8 @@
         
                 <a href="register.php">Need to register?</a>
             </form>
+
+            <h3 style="position: absolute; margin-top: 6em; display: none;">Invalid Username/Password</h3>
         </div>
 
         <footer></footer>
