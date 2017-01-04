@@ -9,7 +9,7 @@
     $db_name = substr($url["path"], 1);
     
     $db = mysqli_connect($server, $db_username, $db_password,  $db_name);
-    if (!$db) {
+    if (!$db) { 
             echo "Error: Unable to connect to MySQL." . PHP_EOL;
             echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
             echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
@@ -41,13 +41,17 @@
             echo '<script type="text/javascript">
                     document.querySelector("h3").style.display = "block";
                     </script>';
-            
+            Print '<script>window.location.assign("login.php");</script>'
         }
-    }
+            
+    
+    
     else {
        echo '<script type="text/javascript">
                     document.querySelector("h3").style.display = "block";
                     </script>';
+    }
+
     }
 
 ?>
