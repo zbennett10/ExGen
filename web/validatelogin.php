@@ -1,7 +1,14 @@
 <?php
     session_start();
+
+    $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+    $server = $url["host"];
+    $db_username = $url["user"];
+    $db_password = $url["pass"];
+    $db_name = substr($url["path"], 1);
     
-    $db = mysqli_connect("127.0.0.1", "root", "",  "exgen_db");
+    $db = mysqli_connect($server, $db_username, $db_password,  $db_name);
     if (!$db) {
             echo "Error: Unable to connect to MySQL." . PHP_EOL;
             echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
