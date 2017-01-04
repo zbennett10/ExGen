@@ -4,13 +4,12 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-        <script src="Assets/workoutData.js"></script>
+        <script src="scripts/workoutData.js"></script>
 
         <style>
             body {
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-position: fill;
             }
 
             #back {
