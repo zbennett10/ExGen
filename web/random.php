@@ -16,6 +16,14 @@
                 background-repeat: no-repeat;
             }
 
+             .body-container {
+                min-width: 1550px;
+                min-height: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                position: fixed;
+            }
+
             #back {
                 float: left;
                 margin-left: 20px;
@@ -82,6 +90,8 @@
     </head>
 
     <body>
+    <div class="body-container">
+
         <a href="home.php" id="back"><img src="assets/backArrow.png"/></a>
 
         <h1 id="title"></h1>
@@ -91,6 +101,8 @@
             <h2 id="condition"></h2>
             <p id="workoutPara"></p>
         </div>
+
+    </div>
 
         <script>
            var workoutData = [];

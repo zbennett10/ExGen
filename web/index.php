@@ -16,8 +16,12 @@
                 background-size: cover;
             }
 
-            body-container {
-                width: 1000px;
+            .body-container {
+                min-width: 1550px;
+                min-height: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                position: fixed;
             }
 
 
@@ -39,8 +43,8 @@
 
            .register-span {
                float: right;
-               margin-right: 1.90em;
-               margin-top: 9em;
+               margin-right: 2.5em;
+               margin-top: 10em;
                font-family: 'montserrat';
             
             }
@@ -108,6 +112,7 @@
     </head>
 
     <body>
+    <div class="body-container">
        
         
           <image class="logo" src="assets/logo.png"/>
@@ -126,7 +131,7 @@
 
         <footer></footer>
 
-    
+    </div>
 
         <script>
              const footerElement = document.querySelector('footer');
@@ -138,6 +143,8 @@
             workoutButton.onclick = function() {
                 location.href = "random.php";
             }
+
+            
         </script>
 
 
