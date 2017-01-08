@@ -16,6 +16,10 @@
                 background-size: cover;
             }
 
+            body-container {
+                width: 1000px;
+            }
+
 
             .container {
                 display: flex;
@@ -104,6 +108,7 @@
     </head>
 
     <body>
+       
         
           <image class="logo" src="assets/logo.png"/>
     
@@ -121,6 +126,8 @@
 
         <footer></footer>
 
+    
+
         <script>
              const footerElement = document.querySelector('footer');
             footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
@@ -132,6 +139,8 @@
                 location.href = "random.php";
             }
         </script>
+
+
 
     </body>
 </html
