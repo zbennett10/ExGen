@@ -4,6 +4,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
         <style>
+            html {
+                height: 100%;
+            }
+
             body {
                 background-image: url("assets/loginBackground.jpg");
                 background-repeat: no-repeat;

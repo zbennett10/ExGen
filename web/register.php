@@ -6,6 +6,10 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
         <style>
+            html {
+                height: 100%;
+            }
+
             body {
                 background-image: url("assets/registerBackground.jpeg");
                 background-repeat: no-repeat;

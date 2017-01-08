@@ -7,6 +7,9 @@
         <!-- link randomscript.js -->
 
         <style>
+            html {
+                height: 100%;
+            }
 
             body {
                 background-image: url("assets/homebackground.jpeg");

@@ -6,6 +6,10 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         
         <style>
+            html {
+                height: 100%
+            }
+
             body {
                 background-image: url("assets/indexBackground.jpg");
                 background-repeat: no-repeat;
