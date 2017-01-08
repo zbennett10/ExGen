@@ -27,7 +27,7 @@ This is for profile page
 - ~~add option for user to delete their profile~~
 - ~~fix up index page that houses login and register functionality~~
 - ~~fix up home page look and feel~~
-- ~add random background image to random.php~
+- ~~add random background image to random.php~~
 - ~~echo username inside of header when logged in~~
 - ~~find data source for exercise options (scrape using artoo probably)
 - ~~find small data source to play with~~
