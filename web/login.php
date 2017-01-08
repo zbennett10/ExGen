@@ -14,6 +14,14 @@
                 background-size: cover;
             }
 
+            .body-container {
+                min-width: 1550px;
+                min-height: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                position: fixed;
+            }
+
             .container {
                 opacity: .85;
                 color: white;
@@ -72,6 +80,7 @@
     </head>
 
     <body>
+    <div class="body-container">
 
         <div class="container">
             <h2 style="position: absolute; margin-top: -4.5em;">Login</h2>
@@ -91,9 +100,15 @@
 
         <footer></footer>
 
+    </div>
+
         <script>
             const footerElement = document.querySelector('footer');
             footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+
+            const container = document.querySelector('.body-container');
+            container.style.minWidth = `${window.outerWidth - 15}px`;
+            container.style.minHeight = `${window.outerHeight - 100}px`;
         </script>
 
     </body>
