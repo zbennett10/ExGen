@@ -30,25 +30,31 @@
                 background-color: #1a98e6;
                 width: 20em;
                 height: 7em;
-                position: absolute;
-                top: 25px;
-                right:55px;
+                float: right;
+                margin-top: 20px;
+                margin-right: 20px;
                 text-align: center;
                 align-items: center;
                 justify-content: center;
-                border: 5px solid black;
+                border: 2px solid black;
                 border-radius: 5%;
                 opacity: .75;
             }
 
            .register-span {
+               position: absolute;
                float: right;
-               margin-right: 2.5em;
                margin-top: 10em;
                font-family: 'montserrat';
             
             }
 
+            aside {
+                margin-right: -3.5em;
+                float: right;
+            }
+
+           
             a {
                 text-decoration: none;
                 color: white;
@@ -65,8 +71,8 @@
             }
 
             .logo {
-                margin-top: 25px;
-                margin-left: 55px;
+                margin-top: 20px;
+                margin-left: 20px;
             }
 
             #generate-button {
@@ -125,7 +131,7 @@
                 </div>
             </div>
 
-            <span class="register-span">Login or Register to customize your workout</span>
+            <aside><span class="register-span">Register to save workouts</span></aside>
 
         <button id="generate-button" class="button">Generate Workout</button>
 
@@ -144,7 +150,9 @@
                 location.href = "random.php";
             }
 
-            
+            const container = document.querySelector('.body-container');
+            container.style.minWidth = `${window.outerWidth - 15}px`;
+            container.style.minHeight = `${window.outerHeight - 100}px`;
         </script>
 
 
