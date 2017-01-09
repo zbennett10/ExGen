@@ -91,7 +91,7 @@
                 font-size: 20px;
                 font-family: "montserrat";
                 margin-right: 5em;
-                margin-top: -3em;
+                margin-top:;
                 float: right;
                 background-color: #1a98e6;
                 color: white;
@@ -149,8 +149,6 @@
         </div>
 
         <footer></footer>
-    
-
 
             <button id="deleteButton">Delete Profile</button>
 
