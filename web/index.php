@@ -9,10 +9,6 @@
         <link rel="stylesheet" href="stylesheets/home-index-profile.css">
         
         <style>
-            html {
-                height: 100%;
-            }
-
             body {
                 background-image: url("assets/indexBackground.jpg");
                 background-repeat: no-repeat;

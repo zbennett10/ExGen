@@ -9,9 +9,6 @@
         <script src="scripts/workoutData.js"></script>
 
         <style>
-            html {
-                height: 100%;
-            }
 
             body {
                 background-size: cover;

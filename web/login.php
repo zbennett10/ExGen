@@ -6,10 +6,6 @@
         <link rel="stylesheet" href="stylesheets/shared-all.css">
 
         <style>
-            html {
-                height: 100%;
-            }
-
             body {
                 background-image: url("assets/loginBackground.jpg");
                 background-repeat: no-repeat;
