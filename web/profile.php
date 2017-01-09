@@ -129,7 +129,7 @@
                 <li><a href="profile.php">Profile</a></li>
                 <li class="logout"><a href="logout.php"> Logout </a></li>
             </ul>
-        <nav>
+        </nav>
 
         <button id="deleteButton">Delete Profile</button>
 
