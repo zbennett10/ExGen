@@ -103,13 +103,12 @@
     </div>
 
         <script>
-            const footerElement = document.querySelector('footer');
-            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
-
+        
             const container = document.querySelector('.body-container');
             container.style.minWidth = `${window.outerWidth - 15}px`;
             container.style.minHeight = `${window.outerHeight - 100}px`;
         </script>
 
+        <script src="scripts/shared-all.js"></script>
     </body>
 </html>

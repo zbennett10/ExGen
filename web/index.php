@@ -140,11 +140,6 @@
     </div>
 
         <script>
-             const footerElement = document.querySelector('footer');
-            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
-        </script>
-
-        <script>
             const workoutButton = document.querySelector('#generate-button');
             workoutButton.onclick = function() {
                 location.href = "random.php";
@@ -155,7 +150,7 @@
             container.style.minHeight = `${window.outerHeight - 100}px`;
         </script>
 
-
+        <script src="scripts/shared-all.js"></script>
 
     </body>
 </html

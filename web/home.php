@@ -4,6 +4,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        
         <!-- link randomscript.js -->
 
         <style>
@@ -138,10 +139,7 @@
             
         </div>
         
-        <script>
-            const footerElement = document.querySelector('footer');
-            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
-        </script>
+        
 
         <script>
             const workoutButton = document.querySelector('#generate-button');
@@ -160,6 +158,6 @@
             
         </script>
         
-       
+       <script src="scripts/shared-all.js"></script>
     </body>
 </html>

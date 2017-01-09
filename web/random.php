@@ -110,11 +110,6 @@
     </div>
 
         <script>
-            const footerElement = document.querySelector('footer');
-            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
-        </script>
-
-        <script>
            var workoutData = [];
            for(var i = 0; i < workouts.length; i++) {
                workouts[i]['title'] = titles[i]['title'];
@@ -144,6 +139,6 @@
         </script>
 
 
-        
+        <script src="scripts/shared-all.js"></script>
     </body>
 </html>
