@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
-        <link rel="stylesheet" href="stylesheets/home=index-profile.css">
+        <link rel="stylesheet" href="stylesheets/home-index-profile.css">
 
         <style>
             html {
