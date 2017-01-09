@@ -61,7 +61,8 @@
 
             footer {
                 clear: both;
-                position: absolute;
+                position: fixed;
+                opacity: .5;
                 height: 1.25em;
                 bottom: 0;
                 left: 0;

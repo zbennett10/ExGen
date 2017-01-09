@@ -65,7 +65,7 @@
             footer {
                 opacity: .5;
                 clear: both;
-                position: absolute;
+                position: fixed;
                 height: 1.25em;
                 bottom: 0;
                 left: 0;
