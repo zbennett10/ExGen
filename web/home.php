@@ -11,24 +11,12 @@
         <!-- link randomscript.js -->
 
         <style>
-            html {
-                height: 100%;
-            }
 
             body {
                 background-image: url("assets/homeBackground.jpeg");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-
-             .body-container {
-                min-width: 1500px;
-                min-height: 710px;
-                margin-left: auto;
-                margin-right: auto;
-                position: fixed;
-            }
-            
 
         </style>
 

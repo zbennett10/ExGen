@@ -1,0 +1,21 @@
+body {
+    background-image: url("assets/indexBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.list-nav:nth-child(1) {
+    margin-left: 1.3em;
+}
+
+.register-span {
+    position: absolute;
+    float: right;
+    margin-top: 10em;
+    font-family: 'montserrat';
+}
+
+aside {
+    margin-right: -3.5em;
+    float: right;
+}

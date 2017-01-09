@@ -7,43 +7,8 @@
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
         <link rel="stylesheet" href="stylesheets/home-index-profile.css">
+        <link rel="stylesheet" href="stylesheets/index.css">
         
-        <style>
-            body {
-                background-image: url("assets/indexBackground.jpg");
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-            .body-container {
-                min-width: 1550px;
-                min-height: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                position: fixed;
-            }
-
-            .list-nav:nth-child(1) {
-                margin-left: 1.3em;
-            }
-
-           .register-span {
-               position: absolute;
-               float: right;
-               margin-top: 10em;
-               font-family: 'montserrat';
-            }
-
-            aside {
-                margin-right: -3.5em;
-                float: right;
-            }
-
-
-
-
-            
-        </style>
     </head>
 
     <body>

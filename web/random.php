@@ -15,14 +15,6 @@
                 background-repeat: no-repeat;
             }
 
-             .body-container {
-                min-width: 1550px;
-                min-height: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                position: fixed;
-            }
-
             #back {
                 float: left;
                 margin-left: 20px;

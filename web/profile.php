@@ -9,21 +9,9 @@
         <link rel="stylesheet" href="stylesheets/home-index-profile.css">
 
         <style>
-            html {
-                height: 100%;
-            }
-
             body {
                 background-color: #a9a9a9;
             } 
-
-            .body-container {
-                min-width: 1550px;
-                min-height: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                position: fixed;
-            }
 
             header {
                 text-align: center;

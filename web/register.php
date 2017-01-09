@@ -16,14 +16,6 @@
                 background-size: cover;
             }
 
-            .body-container {
-                min-width: 1550px;
-                min-height: 1000px;
-                margin-left: auto;
-                margin-right: auto;
-                position: fixed;
-            }
-
             .container {
                 opacity: .75;
                 display: flex;
