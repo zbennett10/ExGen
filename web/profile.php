@@ -91,7 +91,7 @@
                 font-size: 20px;
                 font-family: "montserrat";
                 margin-right: 5em;
-                margin-top:;
+                margin-top: -3em;
                 float: right;
                 background-color: #1a98e6;
                 color: white;
@@ -120,7 +120,6 @@
         
     </head>
  
- 
         <?php
             session_start();
             if($_SESSION['user']) {
@@ -138,8 +137,6 @@
 
         <img src="assets/logo.png"/>
 
-        
-
         <div class="nav">
             <ul>
                 <li><a href="home.php">Home</a></li>
@@ -148,9 +145,7 @@
             </ul>
         </div>
 
-        <footer></footer>
-
-            <button id="deleteButton">Delete Profile</button>
+        <button id="deleteButton">Delete Profile</button>
 
             <form action="" method="POST" id="deleteForm" style="display: none;">
                 Enter Username: <input type="username" name="username" required="required" /> <br/>
@@ -158,6 +153,8 @@
                 </br>
             </form>
 
+        <footer></footer>
+        
     </div>
 
     <script>
@@ -185,6 +182,12 @@
         <script>
             const footerElement = document.querySelector('footer');
             footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
+
+        <script>
+            const container = document.querySelector('.body-container');
+            container.style.minWidth = `${window.outerWidth - 15}px`;
+            container.style.minHeight = `${window.outerHeight - 100}px`;
         </script>
 
     </body>
