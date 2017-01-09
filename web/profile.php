@@ -6,10 +6,21 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <style>
+            html {
+                height: 100%;
+            }
 
             body {
                 background-color: #a9a9a9;
             } 
+
+            .body-container {
+                min-width: 1550px;
+                min-height: 1000px;
+                margin-left: auto;
+                margin-right: auto;
+                position: fixed;
+            }
 
             a{
                 text-decoration: none;
@@ -121,6 +132,7 @@
         ?>
 
     <body>
+    <div class="body-container">
 
         <img src="assets/logo.png"/>
 
@@ -133,6 +145,9 @@
                 <li class="logout"><a href="logout.php"> Logout </a></li>
             </ul>
         </div>
+
+        <footer></footer>
+    </div>
 
         <script>
             const user = "<?php echo $user; ?>";
@@ -164,7 +179,7 @@
             }
         </script>
 
-        <footer></footer>
+        
 
         <script>
             const footerElement = document.querySelector('footer');
