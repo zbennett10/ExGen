@@ -75,7 +75,7 @@
                 bottom:0;
                 right:0;
                 left:0;
-                
+                opacity: .75;
                 width: 20em;
                 height: 5em;
                 background: #1a98e6;
