@@ -1,0 +1,14 @@
+.link-nav {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.list-nav {
+    display: inline;
+    margin-right: 2em;
+}
+
+.link-nav:hover {
+    color: black;
+}

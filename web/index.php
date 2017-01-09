@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
+        <link rel="stylesheet" href="stylesheets/home-index-profile.css">
         
         <style>
             html {
@@ -26,13 +27,7 @@
                 position: fixed;
             }
 
-
-            li {
-                display: inline;
-                margin-right: 2em;
-            }
-
-            li:nth-child(1) {
+            .list-nav:nth-child(1) {
                 margin-left: 1.3em;
             }
 
@@ -41,7 +36,6 @@
                float: right;
                margin-top: 10em;
                font-family: 'montserrat';
-            
             }
 
             aside {
@@ -49,16 +43,8 @@
                 float: right;
             }
 
-           
-            a {
-                text-decoration: none;
-                color: white;
-                font-size: 24px;
-            }
 
-            a:hover {
-                color: black;
-            }
+
 
             
         </style>
@@ -73,8 +59,8 @@
 
             <nav>
                 <ul>
-                    <li><a href="login.php">Login</a></li>
-                    <li><a href="register.php">Register</a></li>
+                    <li class="list-nav"><a class="link-nav" href="login.php">Login</a></li>
+                    <li class="list-nav"><a class="link-nav" href="register.php">Register</a></li>
                 </ul>
             </nav>
 

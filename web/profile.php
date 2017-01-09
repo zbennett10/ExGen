@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
+        <link rel="stylesheet" href="stylesheets/home=index-profile.css">
 
         <style>
             html {
@@ -22,21 +23,6 @@
                 margin-left: auto;
                 margin-right: auto;
                 position: fixed;
-            }
-
-            a{
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-            }
-
-            a:hover {
-                color: black;
-            }
-
-            li {
-                display: inline;
-                margin-right: .7em;
             }
 
             header {
@@ -125,9 +111,9 @@
 
         <nav>
             <ul>
-                <li><a href="home.php">Home</a></li>
-                <li><a href="profile.php">Profile</a></li>
-                <li class="logout"><a href="logout.php"> Logout </a></li>
+                <li class="list-nav"><a class="link-nav" href="home.php">Home</a></li>
+                <li class="list-nav"><a class="link-nav" href="profile.php">Profile</a></li>
+                <li class="logout list-nav"><a class="link-nav" href="logout.php"> Logout </a></li>
             </ul>
         </nav>
 

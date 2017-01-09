@@ -6,6 +6,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
+        <link rel="stylesheet" href="stylesheets/home-index-profile.css">
         
         <!-- link randomscript.js -->
 
@@ -28,37 +29,6 @@
                 position: fixed;
             }
             
-            a{
-                text-decoration: none;
-                color: white;
-                font-size: 20px;
-            }
-
-            a:hover {
-                color: black;
-            }
-
-            .nav {
-                opacity: .75;
-                width: 20em;
-                height: 7em;
-                background-color: #1a98e6;
-                border: 2px solid black;
-                color: white;
-                font-family: 'montserrat';
-                float: right;
-                display: flex;
-                align-items: center;
-                text-align: center;
-                margin-top: 20px;
-                margin-right: 20px;
-
-            }
-
-            li {
-                display: inline;
-                margin-right: .7em;
-            }
 
         </style>
 
@@ -81,13 +51,13 @@
 
         <img class="logo" src="assets/logo.png"/>
 
-        <div class="nav">
+        <nav>
             <ul>
-                <li><a href="home.php">Home</a></li>
-                <li><a href="profile.php">Profile</a></li>
-                <li class="logout"><a href="logout.php"> Logout </a></li>
+                <li class="list-nav"><a class="link-nav" href="home.php">Home</a></li>
+                <li class="list-nav"><a class="link-nav" href="profile.php">Profile</a></li>
+                <li class="logout list-nav"><a class="link-nav" href="logout.php"> Logout </a></li>
             </ul>
-        </div>
+        </nav>
 
         <button id="generate-button" class="button"><a>Generate Workout</a></button>
 
