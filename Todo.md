@@ -2,13 +2,10 @@
 
 - ask user upon login whether or not they would like to be kept logged in
 - implement local storage/session storage (either javascript or php version) depending upon answer
-- consolidate styling into a shared stylesheet
 - find data source for random bodybuilding workouts
 - add generate new workout button to random.php
 - add recently generated workouts to profile page
 - fix background pictures to load faster (switch from jpeg)
-
-
 
 
 ---
@@ -38,3 +35,4 @@ This is for profile page
 - ~~configure mysql database for heroku~~
 - ~~fix pages to not move elements around on page resize~~
 - ~~fix profile page and random page to match current layout~~
+- ~~consolidate styling into a shared stylesheet~~
