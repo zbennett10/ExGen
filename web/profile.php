@@ -55,12 +55,6 @@
                 margin-right: .7em;
             }
 
-            img {
-                float: left;
-                margin-left: 20px;
-                margin-top: 20px;
-            }
-
             header {
                 text-align: center;
                 font-size: 60px;
@@ -143,7 +137,7 @@
     <body>
     <div class="body-container">
 
-        <img src="assets/logo.png"/>
+        <img class="logo" src="assets/logo.png"/>
 
         <div class="nav">
             <ul>

@@ -60,36 +60,6 @@
                 margin-right: .7em;
             }
 
-            img {
-                margin-left: 20px;
-                margin-top: 20px;
-            }
-
-             #generate-button {
-                color: white;
-                display: block;
-                position: absolute;
-                margin:auto;
-                vertical-align: middle;
-                top:0;
-                bottom:0;
-                right:0;
-                left:0;
-                opacity: .75;
-                width: 20em;
-                height: 5em;
-                background: #1a98e6;
-                border: 5px solid black;
-                border-radius: 5%;
-                font-size: 24px;
-                font-weight: bold;
-            }
-
-            button:hover {
-               opacity: .75;
-               
-            }
-
         </style>
 
     </head>
@@ -109,7 +79,7 @@
     <body>
     <div class="body-container">
 
-        <img src="assets/logo.png"/>
+        <img class="logo" src="assets/logo.png"/>
 
         <div class="nav">
             <ul>
