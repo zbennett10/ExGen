@@ -86,6 +86,10 @@
                 padding-bottom: 1em;
             }
 
+            footer {
+
+            }
+
         </style>
     </head>
 
@@ -103,6 +107,11 @@
         </div>
 
     </div>
+
+        <script>
+            const footerElement = document.querySelector('footer');
+            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
 
         <script>
            var workoutData = [];
