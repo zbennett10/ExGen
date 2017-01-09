@@ -4,6 +4,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+        <link rel="stylesheet" href="stylesheets/shared-all.css">
+
         <script src="scripts/workoutData.js"></script>
 
         <style>
@@ -84,10 +86,6 @@
 
             #workoutPara {
                 padding-bottom: 1em;
-            }
-
-            footer {
-
             }
 
         </style>

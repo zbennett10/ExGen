@@ -5,6 +5,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+        <link rel="stylesheet" href="stylesheets/shared-all.css">
+
         <style>
             html {
                 height: 100%;
@@ -57,20 +59,6 @@
                 float: left;
                 margin-left: 20px;
                 margin-top: 20px;
-            }
-
-            footer {
-                clear: both;
-                position: fixed;
-                opacity: .5;
-                height: 1.25em;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding: 1rem;
-                text-align: center;
-                background-color: #efefef;
-                font-size: 18px;
             }
 
             header {

@@ -4,6 +4,8 @@
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <link rel="stylesheet" href="stylesheets/shared-all.css">
         
         <!-- link randomscript.js -->
 
@@ -86,21 +88,6 @@
             button:hover {
                opacity: .75;
                
-            }
-            
-            footer {
-                opacity: .5;
-                clear: both;
-                position: fixed;
-                height: 1.25em;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding: 1rem;
-                text-align: center;
-                background-color: #efefef;
-                font-size: 18px;
-                
             }
 
         </style>
