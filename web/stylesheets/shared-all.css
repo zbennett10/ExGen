@@ -38,6 +38,8 @@ footer {
 }
 
 .logo {
+    float: left;
+    clear: both;
     margin-top: 20px;
     margin-left: 20px;
 }
