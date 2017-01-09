@@ -43,3 +43,19 @@ footer {
     margin-top: 20px;
     margin-left: 20px;
 }
+
+ nav {
+    opacity: .75;
+    width: 20em;
+    height: 7em;
+    background-color: #1a98e6;
+    border: 2px solid black;
+    color: white;
+    font-family: 'montserrat';
+    float: right;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}

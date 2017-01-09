@@ -34,22 +34,6 @@
                 color: black;
             }
 
-           .nav {
-                width: 20em;
-                height: 7em;
-                background-color: #1a98e6;
-                border: 2px solid black;
-                color: white;
-                font-family: 'montserrat';
-                float: right;
-                display: flex;
-                align-items: center;
-                text-align: center;
-                margin-right: 20px;
-                margin-top: 20px;
-
-            }
-
             li {
                 display: inline;
                 margin-right: .7em;
@@ -139,13 +123,13 @@
 
         <img class="logo" src="assets/logo.png"/>
 
-        <div class="nav">
+        <nav>
             <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="profile.php">Profile</a></li>
                 <li class="logout"><a href="logout.php"> Logout </a></li>
             </ul>
-        </div>
+        <nav>
 
         <button id="deleteButton">Delete Profile</button>
 
