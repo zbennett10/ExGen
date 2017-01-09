@@ -7,19 +7,9 @@
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
         <link rel="stylesheet" href="stylesheets/home-index-profile.css">
+        <link rel="stylesheet" href="stylesheets/home.css">
         
         <!-- link randomscript.js -->
-
-        <style>
-
-            body {
-                background-image: url("assets/homeBackground.jpeg");
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-        </style>
-
     </head>
 
         <?php

@@ -5,79 +5,10 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
+        <link rel="stylesheet" href="stylesheets/random.css">
 
         <script src="scripts/workoutData.js"></script>
 
-        <style>
-
-            body {
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-
-            #back {
-                float: left;
-                margin-left: 20px;
-                margin-top: 20px;
-            }
-
-            img {
-                position: absolute;
-                opacity: .75;
-                height: 50px;
-                width: 50px;
-            }
-
-            img:hover {
-                margin-top: -5px;
-                margin-left: -5px;
-                height: 60px;
-                width: 60px;
-            }
-
-
-            h1 {
-                text-align: center;
-                font-family: 'montserrat';
-                font-size: 48px;
-                color: white;
-                opacity: 1;
-                font-weight: bold;
-            }
-
-            #workout-container {
-                text-align: center;
-                color: black;
-                max-width: 500px;
-                margin-left: auto;
-                margin-right: auto;
-                font-size: 18px;
-                font-family: 'montserrat';
-                position: relative;
-                z-index: 1;
-                border-radius: 5%;
-                font-weight: bold;
-            }
-
-            .background {
-                position: absolute;
-                background-color: azure;
-                z-index: -1;
-                opacity: .35;
-                width: 100%;
-                height: 100%;
-                border-radius: 5%;
-            }
-
-            #condition {
-                padding-top: 1em;
-            }
-
-            #workoutPara {
-                padding-bottom: 1em;
-            }
-
-        </style>
     </head>
 
     <body>

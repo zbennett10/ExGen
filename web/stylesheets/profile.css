@@ -1,0 +1,65 @@
+body {
+    background-color: #a9a9a9;
+} 
+
+header {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'montserrat';
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#deleteButton {
+    padding: .5em;
+    font-size: 20px;
+    font-family: "montserrat";
+    margin-right: 5em;
+    margin-top: 2em;
+    float: right;
+    clear: both;
+    background-color: #1a98e6;
+    color: white;
+}
+
+#deleteButton:hover {
+    padding: .6em;
+}
+
+#deleteForm {
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    margin-right: 2.75em;
+}
+
+#deleteSubmit {
+    width: 100%;
+    font-family: 'montserrat';
+    font-size: 20px;
+    color: white;
+    background-color: #1a98e6;
+}
+
+#coming {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 800px;
+    height: 100px;
+    vertical-align: middle;
+    font-family: 'montserrat';
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    color: white;
+}

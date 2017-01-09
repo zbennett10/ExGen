@@ -7,61 +7,8 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
         <link rel="stylesheet" href="stylesheets/shared-all.css">
-
-        <style>
-
-            body {
-                background-image: url("assets/registerBackground.jpeg");
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-
-            .container {
-                opacity: .75;
-                display: flex;
-                background-color: #1a98e6;
-                width: 35em;
-                height: 20em;
-                position: absolute;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                margin: auto;
-                text-align: center;
-                align-items: center;
-                justify-content: center;
-                border-radius: 5%;
-                border: 5px solid black;
-                color: white;
-                font-family: 'montserrat';
-
-            }
-
-            form {
-                vertical-align: middle;
-            }
-
-            h1 {
-                font-size: 48px;
-                text-align: center;
-                margin-top: 2.5em;
-                font-family: 'montserrat', 'verdana';
-            }
-
-            a{
-                text-decoration: none;
-                color: white;
-                border: 2px solid black;
-                padding: .25em;
-                font-size: 12px;
-            }
-
-            a:hover {
-                border: 2px solid white;
-            }
-
-        </style>
+        <link rel="stylesheet" href="stylesheets/register.css">
+        
     </head>
 
     <body>
