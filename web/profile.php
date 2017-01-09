@@ -90,8 +90,8 @@
                 padding: .5em;
                 font-size: 20px;
                 font-family: "montserrat";
-                margin-right: 5em;
-                margin-top: 10em;
+                margin-right: 2em;
+                margin-top: 8em;
                 float: right;
                 background-color: #1a98e6;
                 color: white;
