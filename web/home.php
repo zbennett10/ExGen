@@ -53,9 +53,9 @@
 
         <nav>
             <ul>
-                <li class="list-nav" style="margin-right: .7em; font-size: 20px;"><a class="link-nav" href="home.php">Home</a></li>
-                <li class="list-nav" style="margin-right: .7em; font-size: 20px;"><a class="link-nav" href="profile.php">Profile</a></li>
-                <li class="logout list-nav" style="margin-right: .7em; font-size: 20px;"><a class="link-nav" href="logout.php"> Logout </a></li>
+                <li class="list-nav" style="margin-right: .7em;"><a class="link-nav" href="home.php" style="font-size: 20px;">Home</a></li>
+                <li class="list-nav" style="margin-right: .7em;"><a class="link-nav" href="profile.php" style="font-size: 20px;">Profile</a></li>
+                <li class="logout list-nav" style="margin-right: .7em;"><a class="link-nav" href="logout.php" style="font-size: 20px;"> Logout </a></li>
             </ul>
         </nav>
 
