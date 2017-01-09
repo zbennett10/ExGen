@@ -158,7 +158,9 @@
                 </br>
             </form>
 
-            <h1 id="coming">More Functionality Coming Soon!</h1>
+        <div id="coming">
+            <h1>More Functionality Coming Soon!</h1>
+        </div>
 
         <footer></footer>
 
