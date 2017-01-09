@@ -106,6 +106,18 @@
                 background-color: #1a98e6;
             }
 
+            #coming {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                left: 0;
+                vertical-align: middle;
+                font-family: 'montserrat';
+                font-weight: bold;
+                text-align: center;
+            }
+
         </style>
 
         
@@ -143,6 +155,8 @@
                 <input type="submit" value="Delete Profile" id="deleteSubmit" style="margin-top: .5em;"/>
                 </br>
             </form>
+
+            <h1 id="coming">More Functionality Coming Soon!</h1>
 
         <footer></footer>
 
