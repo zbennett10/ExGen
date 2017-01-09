@@ -6,6 +6,7 @@
 - add generate new workout button to random.php
 - add recently generated workouts to profile page
 - fix background pictures to load faster (switch from jpeg)
+- consolidate scripts
 
 
 ---
