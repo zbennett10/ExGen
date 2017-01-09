@@ -117,32 +117,7 @@
 
         </style>
 
-        <script>
-            const user = "<?php echo $user; ?>";
-            const header = document.createElement('header');
-            const userElement = document.createElement('h3');
-            const body = document.querySelector('body');
-
-            userElement.innerText = user;
-            header.innerText = `Welcome`;
-            header.appendChild(userElement);
-            body.appendChild(header);
-            
-        </script>
-
-        <script>
-            const deleteButton = document.querySelector('#deleteButton');
-            const deleteForm = document.querySelector('#deleteForm');
-
-            deleteButton.onclick = function() {
-                return deleteForm.style.display === 'none' ? deleteForm.style.display = 'block' : deleteForm.style.display = 'none';
-            }
-        </script>
-
-        <script>
-            const footerElement = document.querySelector('footer');
-            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
-        </script>
+        
     </head>
  
  
@@ -186,6 +161,33 @@
             </form>
 
     </div>
+
+    <script>
+            const user = "<?php echo $user; ?>";
+            const header = document.createElement('header');
+            const userElement = document.createElement('h3');
+            const containerDiv = document.querySelector('.body-container');
+
+            userElement.innerText = user;
+            header.innerText = `Welcome`;
+            header.appendChild(userElement);
+            containerDiv.appendChild(header);
+            
+        </script>
+
+        <script>
+            const deleteButton = document.querySelector('#deleteButton');
+            const deleteForm = document.querySelector('#deleteForm');
+
+            deleteButton.onclick = function() {
+                return deleteForm.style.display === 'none' ? deleteForm.style.display = 'block' : deleteForm.style.display = 'none';
+            }
+        </script>
+
+        <script>
+            const footerElement = document.querySelector('footer');
+            footerElement.innerText = `ExGen - Zachary Bennett © ${(new Date()).getFullYear()}`;
+        </script>
 
     </body>
 
