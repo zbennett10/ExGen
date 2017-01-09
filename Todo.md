@@ -7,7 +7,7 @@
 - add generate new workout button to random.php
 - add recently generated workouts to profile page
 - fix background pictures to load faster (switch from jpeg)
-- fix profile page and random page to match current layout
+
 
 
 
@@ -37,3 +37,4 @@ This is for profile page
 - ~~configure app for deployment to heroku~~
 - ~~configure mysql database for heroku~~
 - ~~fix pages to not move elements around on page resize~~
+- ~~fix profile page and random page to match current layout~~

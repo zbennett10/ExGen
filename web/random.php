@@ -106,6 +106,7 @@
             <p id="workoutPara"></p>
         </div>
 
+        <footer></footer>
     </div>
 
         <script>
