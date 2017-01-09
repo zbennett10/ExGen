@@ -43,7 +43,6 @@
                 border-radius: 5%;
                 border: 5px solid black;
                 font-family: 'montserrat';
-
             }
 
             form {
@@ -69,8 +68,6 @@
 
     <body>
     <div class="body-container">
-
-        <image class="logo" src="assets/logo.png"/>
 
         <div class="container">
             <h2 style="position: absolute; margin-top: -4.5em;">Login</h2>
