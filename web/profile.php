@@ -116,6 +116,8 @@
                 font-family: 'montserrat';
                 font-weight: bold;
                 text-align: center;
+                margin: auto;
+                color: white;
             }
 
         </style>
