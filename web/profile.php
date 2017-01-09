@@ -112,6 +112,8 @@
                 bottom: 0;
                 right: 0;
                 left: 0;
+                min-width: 100px;
+                min-height: 5px;
                 vertical-align: middle;
                 font-family: 'montserrat';
                 font-weight: bold;
