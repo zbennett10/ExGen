@@ -1,5 +1,7 @@
  <html>
     <head>
+        <meta charset='utf-8'>
+
         <title>Profile</title>
 
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -53,33 +55,8 @@
 
     </div>
 
-    <script>
-            const user = "<?php echo $user; ?>";
-            const header = document.createElement('header');
-            const userElement = document.createElement('h3');
-            const containerDiv = document.querySelector('.body-container');
-
-            userElement.innerText = user;
-            header.innerText = `Welcome`;
-            header.appendChild(userElement);
-            containerDiv.appendChild(header);
-            
-
-
-            //button and form hide/show
-            const deleteButton = document.querySelector('#deleteButton');
-            const deleteForm = document.querySelector('#deleteForm');
-
-            deleteButton.onclick = function() {
-                return deleteForm.style.display === 'none' ? deleteForm.style.display = 'block' : deleteForm.style.display = 'none';
-            }
-
-            //body container configuration
-            const container = document.querySelector('.body-container');
-            container.style.minWidth = `${window.outerWidth - 15}px`;
-            container.style.minHeight = `${window.outerHeight - 100}px`;
-        </script>
-
+        <!-- external scripts -->
+        <script src="scripts/profile.js"></script>
         <script src="scripts/shared-all.js"></script>
     </body>
 
