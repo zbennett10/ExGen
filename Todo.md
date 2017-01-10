@@ -6,7 +6,8 @@
 - add generate new workout button to random.php
 - add recently generated workouts to profile page
 - fix background pictures to load faster (switch from jpeg)
-- consolidate scripts
+- fix bug where if page is loaded when browser is not in a full size position, elements are skewed
+
 
 
 ---
@@ -37,3 +38,4 @@ This is for profile page
 - ~~fix pages to not move elements around on page resize~~
 - ~~fix profile page and random page to match current layout~~
 - ~~consolidate styling into a shared stylesheet~~
+- ~~consolidate scripts~~
