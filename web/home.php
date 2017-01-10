@@ -42,27 +42,10 @@
         
         <footer></footer>
             
-        </div>
-        
-        
+    </div>
 
-        <script>
-            const workoutButton = document.querySelector('#generate-button');
-            workoutButton.onclick = function() {
-                location.href = "random.php";
-            }
-             
-            //  const containerDiv = document.querySelector('.body-container');
-            //  console.log(containerDiv.style.minWidth);
-
-             const container = document.querySelector('.body-container');
-            container.style.minHeight = `${window.outerHeight - 100}px`;
-            container.style.minWidth = `${window.outerWidth - 15}px`;
-
-            console.log(container.style.minHeight)
-            
-        </script>
-        
+        <!-- external scripts -->
+       <script src="scripts/home.js"></script>
        <script src="scripts/shared-all.js"></script>
     </body>
 </html>
