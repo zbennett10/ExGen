@@ -22,7 +22,7 @@
 
         <h1 id="title"></h1>
         
-        <button id="generateButton" onclick="generateWorkout()" mousedown="changeOpacity('.50')">New</button>
+        <button id="generateButton" onclick="generateWorkout()">New</button>
 
         <div id="workout-container">
             <div class="background"></div>
