@@ -3,7 +3,6 @@
 - ask user upon login whether or not they would like to be kept logged in
 - implement local storage/session storage (either javascript or php version) depending upon answer
 - find data source for random bodybuilding workouts
-- add generate new workout button to random.php
 - add recently generated workouts to profile page
 - fix bug where if page is loaded when browser is not in a full size position, elements are skewed
 
@@ -39,3 +38,4 @@ This is for profile page
 - ~~consolidate styling into a shared stylesheet~~
 - ~~consolidate scripts~~
 - ~~fix background pictures to load faster~~
+- ~~add generate new workout button to random.php~~

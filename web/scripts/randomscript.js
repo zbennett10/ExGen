@@ -1,8 +1,8 @@
 var workoutData = [];
-    for(var i = 0; i < workouts.length; i++) {
+for(var i = 0; i < workouts.length; i++) {
         workouts[i]['title'] = titles[i]['title'];
         workoutData.push(workouts[i]);
-}
+    }
 
 window.onload = function() {
     generateWorkout();
