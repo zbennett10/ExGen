@@ -16,12 +16,14 @@
     <body>
     <div class="body-container">
 
-        <a href="home.php" id="back">
-            <img src="assets/backArrow.png"/>
+        <a href="home.php" id="backLink">
+            <img id="backArrow" src="assets/backArrow.png"/>
         </a>
 
         <h1 id="title"></h1>
         
+        <button id="generateButton" onclick="generateWorkout()" mousedown="changeOpacity('.50')">New</button>
+
         <div id="workout-container">
             <div class="background"></div>
             <h2 id="condition"></h2>
