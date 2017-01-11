@@ -1,12 +1,10 @@
 # ExGen Todo List
 
-- ask user upon login whether or not they would like to be kept logged in
-- implement local storage/session storage (either javascript or php version) depending upon answer
 - find data source for random bodybuilding workouts
-- add recently generated workouts to profile page
+- add recently generated workouts to profile page (past ten)
+    1.store last ten viewed workouts to database
+- add ability for user to save workouts to database and view
 - fix bug where if page is loaded when browser is not in a full size position, elements are skewed
-
-
 
 ---
 This is for profile page 
