@@ -2,6 +2,7 @@ body {
     background-image: url("assets/loginBackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 
 .container {
