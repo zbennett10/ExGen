@@ -5,7 +5,6 @@
 - find data source for random bodybuilding workouts
 - add generate new workout button to random.php
 - add recently generated workouts to profile page
-- fix background pictures to load faster (switch from jpeg)
 - fix bug where if page is loaded when browser is not in a full size position, elements are skewed
 
 
@@ -39,3 +38,4 @@ This is for profile page
 - ~~fix profile page and random page to match current layout~~
 - ~~consolidate styling into a shared stylesheet~~
 - ~~consolidate scripts~~
+- ~~fix background pictures to load faster~~
